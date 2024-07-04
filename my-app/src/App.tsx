@@ -177,7 +177,7 @@ const App: React.FC = () => {
       <div className="search-bar">
         <input
           type="text"
-          placeholder="Search..."
+          placeholder="Search changed"
           value={search.searchTerm}
           onChange={handleSearch}
           onKeyPress={handleKeyPress}
